@@ -1,0 +1,17 @@
+To run the whole game you need to run start.py file
+
+File description:
+start.py - displays starting screen and then calls run_game function from game.py that
+runs the game itself
+
+game.py - module contains setting classes and collects all the functions together for the game to run
+
+ship.py - contains Lander class that describes it's various properties,
+functions for checking landing status and drawing the lander
+
+game_functions.py - contains most important functions that run the game, i.e function that
+updates and draws the screen and function that reacts to keyboard input
+
+stat.py - contains functions that display various stats
+
+star.py - contains class Stars and function for generating position of stars
